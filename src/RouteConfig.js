@@ -60,7 +60,7 @@ function ConfigExample() {
     return (
         <Router>
             <div>
-                <h1>ConfigExample</h1>
+                <h2>ConfigExample</h2>
                 <ul>
                     <li><Link to="/sandwiches">sandwiches</Link></li>
                     <li><Link to="/tacos">tacos</Link></li>
