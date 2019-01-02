@@ -8,6 +8,9 @@ import BlockExample from './Block'
 import NoMatchExample from './NoMatch'
 import Recursive from './Recursive'
 import SildeBar from './SildeBar'
+import CssTransition from './CssTransition'
+import Ambiguous from './Ambiguous'
+import RouteConifg from './RouteConfig'
 class App extends Component {
   render() {
     var componentName = 'AuthExample'
@@ -19,7 +22,10 @@ class App extends Component {
         {/* <BlockExample></BlockExample> */}
         {/* <NoMatchExample></NoMatchExample> */}
         {/* <Recursive></Recursive> */}
-        <SildeBar></SildeBar>
+        {/* <SildeBar></SildeBar> */}
+        {/* <CssTransition></CssTransition> */}
+        {/* <Ambiguous></Ambiguous> */}
+        <RouteConifg></RouteConifg>
       </div>
     );
   }
