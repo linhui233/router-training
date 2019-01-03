@@ -11,6 +11,7 @@ import SildeBar from './SildeBar'
 import CssTransition from './CssTransition'
 import Ambiguous from './Ambiguous'
 import RouteConifg from './RouteConfig'
+import ModalSwitch from './ModalGallery'
 class App extends Component {
   render() {
     var componentName = 'AuthExample'
@@ -25,7 +26,8 @@ class App extends Component {
         {/* <SildeBar></SildeBar> */}
         {/* <CssTransition></CssTransition> */}
         {/* <Ambiguous></Ambiguous> */}
-        <RouteConifg></RouteConifg>
+        {/* {<RouteConifg></RouteConifg>} */}
+        <ModalSwitch></ModalSwitch>
       </div>
     );
   }
